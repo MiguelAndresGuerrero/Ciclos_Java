@@ -6,7 +6,9 @@ public class Main {
         int opcion;
 
         do {
-            System.out.println("\n=== MENU DE EJERCICIOS ===");
+            System.out.println("==========================");
+            System.out.println("    MENU DE EJERCICIOS    ");
+            System.out.println("==========================");
             System.out.println("1 - Ejecutar Ejercicio1");
             System.out.println("2 - Ejecutar Ejercicio2");
             System.out.println("3 - Ejecutar Ejercicio3");
@@ -24,6 +26,9 @@ public class Main {
             System.out.println("15 - Ejecutar Ejercicio15");
             System.out.println("16 - Ejecutar Ejercicio16");
             System.out.println("17 - Ejecutar Ejercicio17");
+            System.out.println("18 - Ejecutar Ejercicio18");
+            System.out.println("19 - Ejecutar Ejercicio19");
+            System.out.println("20 - Ejecutar Ejercicio20");
             System.out.println("0 - Salir");
             System.out.print("Seleccione una opción: ");
             opcion = sc.nextInt();
@@ -46,6 +51,9 @@ public class Main {
                 case 15: Ejercicio15.main(null); break;
                 case 16: Ejercicio16.main(null); break;
                 case 17: Ejercicio17.main(null); break;
+                case 18: Ejercicio18.main(null); break;
+                case 19: Ejercicio19.main(null); break;
+                case 20: Ejercicio20.main(null); break;
                 case 0: System.out.println("Saliendo, Vuelve pronto :D"); break;
                 default: System.out.println("Ingresa una de las opciones no sea pendejo >:v");
             }
